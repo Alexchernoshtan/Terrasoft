@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <h1>Welcome</h1>
+    
+
+    <form method="post">
+        <label>Введите текст:</label><br />
+        <textarea name="text"></textarea><br />
+
+        <input name="act" type="radio" value="symbol" />
+        <span>Количество символов</span> <br />
+
+        <input name="act" type="radio" value="coms" />
+        <span>Количество запятых</span> <br />
+
+        <input name="act" type="radio" value="cword" />
+        <span>Количетво слов</span><br />
+
+        <input name="act" type="radio" value="question" />
+        <span>Количетво вопросительных предложений</span><br />
+
+        <input checked="checked" name="act" type="radio" value="exclamation" />
+        <span>Количетво восклицательных предложений</span><br />
+
+        <input type="submit" value="Отправить" />
+    </form>
